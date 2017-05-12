@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity implements LoaderManager.Loa
 
     @Override
     public void onLoadFinished(Loader<String> loader, String data) {
-        output.append("Loader finished, returned: " + data);
+        output.append("Loader finished, returned: " + data + "\n");
 
     }
 
