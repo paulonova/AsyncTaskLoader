@@ -1,4 +1,4 @@
-#Fri May 12 12:47:06 CEST 2017
+#Fri May 12 12:58:01 CEST 2017
 base.0=D\:\\ONLINE_PIZZA\\LYNDA_COM\\Exercise Files\\Ch02\\02_03\\AsyncTaskLoader\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_7
 renamed.0=classes.dex
 file.0=D\:\\ONLINE_PIZZA\\LYNDA_COM\\Exercise Files\\Ch02\\02_03\\AsyncTaskLoader\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_7\\classes.dex

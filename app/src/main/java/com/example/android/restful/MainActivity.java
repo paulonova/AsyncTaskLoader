@@ -21,9 +21,11 @@ public class MainActivity extends AppCompatActivity implements LoaderManager.Loa
         output = (TextView) findViewById(R.id.output);
     }
 
+    /**Action starts here when I click the button
+     * forceLoad() starts the onCreateLoader()*/
     public void runClickHandler(View view) {
-        getSupportLoaderManager().initLoader(0, null, this).forceLoad(); // Don´t recreate the Loader each time I call it..
-//        getSupportLoaderManager().restartLoader(0, null, this).forceLoad();// Recreate the Loader each time I call it..
+//        getSupportLoaderManager().initLoader(0, null, this).forceLoad(); // Don´t recreate the Loader each time I call it..
+        getSupportLoaderManager().restartLoader(0, null, this).forceLoad();// Recreate the Loader each time I call it..
 
 
     }
@@ -70,7 +72,7 @@ public class MainActivity extends AppCompatActivity implements LoaderManager.Loa
                 e.printStackTrace();
             }
 
-            return "From the loader";
+            return "From the loader";// this is the data..
         }
 
 
